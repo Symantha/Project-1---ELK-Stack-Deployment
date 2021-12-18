@@ -104,13 +104,13 @@ Metricbeat collects the machine metrics and statistical data, such as CPU usage,
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-SSH into the control node and follow the steps below:
-- Copy the configuration and playbook YAML files, to the /etc/ansible/files folder using: 
-cp ./Resources/filebeat-config.yml /etc/ansible/files/filebeat-config.yml
-cp ./Resources/filebeat-play.yml /etc/ansible/files/filebeat-play.yml
-cp ./Resources/metricbeat-config.yml /etc/ansible/files/metricbeat-config.yml
-cp ./Resources/metricbeat-play.yml /etc/ansible/files/metricbeat-play.yml
-cp ./Resources/install-ELK.yml /etc/ansible/files/install-ELK.yml
+SSH into the control node and follow the steps below: </br>
+- Copy the configuration and playbook YAML files, to the /etc/ansible/files folder using: </br>
+cp ./Resources/filebeat-config.yml /etc/ansible/files/filebeat-config.yml </br>
+cp ./Resources/filebeat-play.yml /etc/ansible/files/filebeat-play.yml </br>
+cp ./Resources/metricbeat-config.yml /etc/ansible/files/metricbeat-config.yml </br>
+cp ./Resources/metricbeat-play.yml /etc/ansible/files/metricbeat-play.yml </br>
+cp ./Resources/install-ELK.yml /etc/ansible/files/install-ELK.yml </br>
 
 - Update the filebeat-config and metricbeat-config files each to point towards the ELK server IP address, username and password. (10.2.0.4, elastic & changeme, respectively, for both config files)
 
