@@ -26,7 +26,7 @@ Load balancing ensures that the application will be highly available, in additio
 Load balancers protect the availability of the data by distributing the load across multiple servers.
 This can help protect against attacks affecting the availability of the servers and their data, such as Denial of Service (DoS) attacks. The advantage of a jump box is to limit access to servers that are not accessible from the internet, except thru the jump box. 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the server metrics and system logs. Two applications for doing so are Filebeat and Metricbeat. Filebeat records system logs, such as logon attempts while Metricbeat records metric data, such as cpu usage.
+Integrating an ELK server allowed me to easily monitor the vulnerable VMs for changes to the server metrics and system logs. Two applications for doing so are Filebeat and Metricbeat. Filebeat records system logs, such as logon attempts while Metricbeat records metric data, such as cpu usage.
 
 The configuration details of each machine may be found below.
 I used the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to create the following table.
